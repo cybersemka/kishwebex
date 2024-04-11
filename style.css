@@ -1,0 +1,62 @@
+body {
+    background-color: #00BFFF;
+}
+
+body, .navbar-nav, .navbar-brand, .navbar-toggler-icon, .nav-link, .about-section h4, .container h3, .container h4, .container p, .container li, .container button, .modal-title, .footer {
+    color: white;
+}
+
+.bg-custom-secondary {
+    color : #00BFFF;
+}
+
+.navbar-nav a, .footer a {
+    color: white;
+}
+
+.navbar-nav .active a {
+    color: #00BFFF;
+}
+
+.navbar-toggler {
+    border-color: white;
+    color: white;
+}
+
+.navbar-toggler:hover {
+    background-color: white;
+    color: #00BFFF;
+}
+
+.container, .map, .modal-content {
+    background-color: #00BFFF;
+}
+
+.table, .pagination a.page-link, .modal-footer button {
+    border-color: white;
+}
+
+.pagination a.page-link, .footer button {
+    background-color: white;
+    color: #00BFFF;
+}
+
+.pagination a.page-link:hover, .footer button:hover {
+    background-color: #F0F8FF;
+    color: #00BFFF;
+}
+
+.third-title {
+    color: #007bff; 
+}
+
+.btn-custom {
+    background-color: #00BFFF; 
+    color: #ffffff; 
+    border: none; 
+}
+
+.btn-custom:hover {
+    background-color: #ffffff; 
+    color: #00BFFF; 
+}
