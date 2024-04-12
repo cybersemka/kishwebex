@@ -136,54 +136,20 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="guideModalLabel">Форма заказа экскурсии</h5>
-                <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h5 class="modal-title" id="guideModalLabel">Создание заявки</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="container-fluid">
-                    <div class="row mb-3">
-                        <div class="col">
-                            <label for="date" class="form-label">Дата:</label>
-                            <input type="date" class="form-control" id="date">
-                        </div>
-                        <div class="col">
-                            <label for="time" class="form-label">Время:</label>
-                            <input type="time" class="form-control" id="time">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col">
-                            <label for="duration" class="form-label">Длительность (в часах):</label>
-                            <input type="number" class="form-control" id="duration" value="1">
-                        </div>
-                        <div class="col">
-                            <label for="persons" class="form-label">Количество человек:</label>
-                            <input type="number" class="form-control" id="persons" value="1" min="1">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col">
-                            <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input" id="optionFirst">
-                                Использовать скидку для пенсионеров
-                            </label>
-                        </div>
-                        <div class="col">
-                            <label class="form-check-label">
-                                <input type="checkbox" class="form-check-input" id="optionSecond">
-                                Трансфер до ближайших станций метро после экскурсии
-                            </label>
-                        </div>
-                    </div>
+                <div class="container" id="order-body">
                 </div>
                 <div id="order-notification" class="alert alert-success alert-dismissible d-none" role="alert">
                     Заявка успешно отправлена!
-                    <button type="button" class="btn btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Отменить</button>
-                <button type="button" class="btn btn-success" id="order-send">Отправить</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отменить</button>
+                <button type="button" class="btn btn-primary" id="order-send">Отправить</button>
             </div>
         </div>
     </div>
